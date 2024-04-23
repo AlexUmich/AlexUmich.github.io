@@ -83,16 +83,6 @@ h3 a:hover {
     color: rgb(75, 168, 255);
 }
 
-#email h2, #linkedin h2, #yt h2 {
-    font-size: 40px;
-    color: rgb(166, 212, 255);
-}
-
-#email h2 a:hover, #linkedin h2 a:hover, #yt h2 a:hover {
-    font-size: 40px;
-    color: rgb(166, 212, 255);
-}
-
 p {
     padding: 0px 50px;
 }
@@ -105,8 +95,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-
 
 .totop {
     position: fixed;
@@ -213,22 +201,8 @@ footer {
         font-size: 20px;
     }
 
-    .ytembed {
-        width: 300px;
-        height: 200px;
-    }
-
-    .webgl {
-        display: none;
-    }
-
     .totop {
         display: none;
-    }
-
-    .pdf {
-        width: 400px;
-        height: 400px;
     }
 
     #medeets {
