@@ -264,6 +264,11 @@ footer {
         display: inline;
     }
 
+    #txt {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
     #mepic {
         width: 200px;
         margin-top: 20px;
