@@ -127,16 +127,67 @@ footer {
     border: solid 3px red;
 }
 
+#x {
+    border: 4px solid black;
+}
+
 #medeets {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#txt {
+    flex: 1;
+    padding: 20px;
+    margin-top: 550px;
+    margin-left: 150px;
+}
+
+#imgs {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#imgs img {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+#imgs img:first-child {
+    margin-top: 0;
+}
+
+#imgs img:last-child {
+    margin-bottom: 0;
+}
+
+#imgs:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% + 20px);
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
 }
 
 #intropic {
     width: 500px;
     margin: auto;
+    border: 4px solid black;
+}
+
+#intropic:hover {
+    transform: scale(1.25);
+    border: 4px solid black;
+}
+
+.introtext {
+    font-weight: bold;
 }
 
 .tiktok-embed {
@@ -145,6 +196,7 @@ footer {
 
 #pics {
     display: grid;
+    gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
@@ -155,6 +207,7 @@ footer {
     margin: auto;
     border: 4px solid blue;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 #duckpic1, #duckpic2, #duckpic3 {
@@ -162,6 +215,7 @@ footer {
     margin: auto;
     border: 4px solid blue;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 #penguinpic1, #penguinpic2, #penguinpic3 {
@@ -169,6 +223,7 @@ footer {
     margin: auto;
     border: 4px solid blue;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 600px) {
